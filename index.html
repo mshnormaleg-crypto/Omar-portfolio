@@ -13,6 +13,9 @@
 <body>
 
 <div class="noise"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="grain-grid"></div>
 
 <header class="site-header">
   <div class="header-inner">
@@ -31,20 +34,23 @@
 
   <!-- HERO -->
   <section class="hero">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
     <div class="hero-inner">
       <p class="eyebrow hero-anim" style="animation-delay:0.1s;"><span class="dot"></span> Available for new projects</p>
       <h1 class="hero-title hero-anim" style="animation-delay:0.2s;">
-        Omar Hassan designs<br/>
-        <span class="accent">and builds</span> websites<br/>
-        that actually work.
+        <span class="title-line">Omar Hassan</span>
+        <span class="title-line">designs <span class="accent">&amp;</span></span>
+        <span class="title-line"><span class="accent">builds</span> websites</span>
+        <span class="title-line">that actually work.</span>
       </h1>
-      <p class="hero-sub hero-anim" style="animation-delay:0.35s;">A designer-developer hybrid — I plan the look, write the code, and ship sites that look sharp and load fast. No templates, no shortcuts.</p>
-      <div class="hero-actions hero-anim" style="animation-delay:0.5s;">
-        <a href="#work" class="btn-primary">See my work</a>
-        <a href="#contact" class="btn-outline">Start a project</a>
+      <p class="hero-sub hero-anim" style="animation-delay:0.5s;">A designer-developer hybrid — I plan the look, write the code, and ship sites that look sharp and load fast. No templates, no shortcuts.</p>
+      <div class="hero-actions hero-anim" style="animation-delay:0.65s;">
+        <a href="#work" class="btn-primary magnetic"><span>See my work</span></a>
+        <a href="#contact" class="btn-outline magnetic"><span>Start a project</span></a>
       </div>
     </div>
-    <div class="hero-console hero-anim" style="animation-delay:0.4s;">
+    <div class="hero-console hero-anim" style="animation-delay:0.45s;">
       <div class="console-bar">
         <span class="console-dot red"></span>
         <span class="console-dot yellow"></span>
@@ -69,8 +75,10 @@
     </div>
 
     <div class="work-grid">
-      <a href="https://mshnormaleg-crypto.github.io/apicks-solutions/" target="_blank" class="work-card featured">
-        <div class="work-thumb" style="background-image:url('https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=1200&q=80')"></div>
+      <a href="https://mshnormaleg-crypto.github.io/apicks-solutions/" target="_blank" class="work-card featured reveal">
+        <div class="work-thumb" style="background-image:url('https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=1200&q=80')">
+          <span class="view-tag">View live site &rarr;</span>
+        </div>
         <div class="work-info">
           <p class="work-tag">Web Design &middot; Development</p>
           <h3>A-Picks Solutions</h3>
