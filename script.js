@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
   /* ---- Scroll reveal for cards/blocks ---- */
-  const revealEls = document.querySelectorAll('.work-card, .about-text, .about-stats .stat-block, .tree-col, .contact-box');
+  const revealEls = document.querySelectorAll('.work-card, .about-text, .about-stats .stat-block, .tree-col, .contact-box, .process-frame');
   revealEls.forEach((el) => el.classList.add('reveal'));
 
   const observer = new IntersectionObserver((entries) => {
